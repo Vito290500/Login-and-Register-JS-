@@ -1,0 +1,166 @@
+body{
+    background-image: url(img/fantasy.jpg);
+    background-repeat: none;
+    background-size: cover;
+    font-family: "Gill Sans", sans-serif;
+    display: flex;
+}
+.Register{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color: rgb(237, 237, 237);
+    opacity: 0.8;
+}
+.Register h2{
+    color: rgb(204, 67, 204);
+    text-align: center;
+    padding: 10px;
+}
+.Register-content{
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 30px;
+}
+.Register-content p{
+    color: grey;
+    margin-bottom: -2rem;
+}
+.Register-content input{
+    width: 85%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid grey;
+    outline: none;
+    padding-left: 40px;
+    font-size: 18px;
+    margin-bottom: 2rem;
+    background-color: rgb(237, 237, 237);
+}
+.Register-content img{
+    transform: translate(20%, 125%);
+}
+.Register-content input:focus{
+    border-bottom: 2px solid rgb(204, 67, 204);
+}
+.RegisterBtn{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    margin-left: 8rem;
+    margin-top: 6rem;
+}
+.RegisterBtn:hover{
+    cursor: pointer;
+    border: 1px solid rgb(204, 67, 204);
+    color: rgb(204, 67, 204);
+}
+.login-btn-section{
+    display: flex;  
+    margin-top: -2rem;
+}
+.login-btn-section p{
+    font-size: 12px;
+}
+.login-btn-section button{
+    border: none;
+    margin-top: 0.6rem;
+    color: rgb(204, 67, 204);
+}
+.login-btn-section button:hover{
+    cursor: pointer;
+}
+
+
+
+
+/* All Account Section Minimized*/
+.Show-All-Account-Minimized{
+    display: block;
+    width: 120px;
+    height: 100%;
+    background-color: rgb(237, 237, 237);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    overflow-y: auto;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+.Show-All-Account-Minimized:hover{
+    cursor: pointer;
+}
+.Show-All-Account-Minimized img{
+    padding: 20px;
+}
+.account-list-minimized{
+    list-style: none;
+}
+.account-list-minimized li{
+    margin-left: -1.5rem;
+    margin-top: -0.5rem;
+}
+.account-list-minimized li img{
+    width: 40px;
+    height: 40px;
+}
+
+
+/* All account section */
+.Show-All-Account{
+    display: none;
+    width: 350px;
+    height: 100%;
+    background-color: rgb(237, 237, 237);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    overflow-y: auto;
+}
+.Show-All-Account img{
+    padding: 20px;
+}
+.account-list{
+    list-style: none;
+}
+.account-list li{
+    margin-left: -2rem;
+    margin-top: -0.5rem;
+    display: flex;
+}
+.account-list .name{
+    color: rgb(204, 67, 204);
+}
+.status{
+    display: flex;
+    margin-top: -1.5rem;
+}
+.account-list li img{
+    width: 40px;
+    height: 40px;
+}
+.All-Account-Tittle h2{
+    color: rgb(204, 67, 204);
+    text-align: center;
+}
+.All-Account-Tittle img{
+    padding: 10px;
+    margin-left: 6rem;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+/* Login Section Style */
+.Login{
+    display: none;
+}

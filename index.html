@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Register</title>
+    <script src="app.js" defer></script>
+    <script src="design.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="Register">
+        <form action="" id="FormSection">
+            <h2>REGISTER</h2>
+            
+            <div class="Register-content">  
+                <p>username</p> 
+                <div class="UsernameDiv">
+                    <img src="img/username.png" alt="" width="30px" height="30px">
+                    <input type="text" placeholder="Enter a Name" id="uUsername">
+                </div>
+
+                <p>password</p>
+                <div class="PasswordDiv">
+                    <img src="img/password.png" alt="" width="30px" height="30px">
+                    <input type="text" placeholder="Enter a Password" id="uPassword">
+                </div> 
+                <div class="login-btn-section">
+                    <p>Arleady have an account?</p>
+                    <button id="uLogin-btn">Login</button>
+                </div>
+            </div>
+
+            <button type="submit" id="uRegister-btn" class="RegisterBtn">Register</button>
+        
+            
+        </form>
+    </section>
+
+    <section class="Login">
+        <form action="">
+            <div>
+                <input type="text" placeholder="Enter a Name" id="uUsername">
+                <input type="text" placeholder="Enter a Password" id="uPassword">
+            </div>
+            <div class="Login-bottom-section">
+                <button id="uLogin-btn">Login</button>
+
+                <div class="Register">
+                    <p>Register now?</p>
+                    <button id="uRegister-btn">Register</button>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    
+    <div class="Show-All-Account-Minimized" id="minimized">
+        <img src="img/account.png" alt="">
+
+        <ul class="account-list-minimized" id="listAccountMinimized">
+            <li><img src="img/username.png" alt=""></li>
+        </ul>
+
+    </div>
+
+    <div class="Show-All-Account" id="massimized">
+
+        <div class="All-Account-Tittle">
+            <h2>All Account Registered</h2>
+            <img src="img/account.png" alt="">
+        </div>
+        
+        <ul class="account-list" id="listAccount">
+            <li>
+                <img src="img/username.png" alt="">
+                <div>
+                    <p class="name">ADMIN USER</p>
+                    <div class="status">
+                        <p>data register: undefined</p>
+                    </div>
+                </div>
+            </li>
+            
+        </ul>
+    </div>
+    
+
+</body>
+</html>
